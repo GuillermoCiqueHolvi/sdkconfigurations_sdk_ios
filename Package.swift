@@ -3,9 +3,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "SDKConfigurations",
+    name: "ZendeskSDKConfigurations",
     products: [
-        .library(name: "SDKConfigurations", targets: ["SDKConfigurations"])
+        .library(name: "ZendeskSDKConfigurations", targets: ["SDKConfigurations"])
     ],
     targets: [
         .binaryTarget(
